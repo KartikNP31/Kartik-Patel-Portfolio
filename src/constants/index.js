@@ -199,7 +199,7 @@ const experiences = [
   },
   {
     title: "Gradient: Core Member",
-    company_name: "IOTA : Programming Club of IIITS",
+    company_name: "Programming Club of IIIT Sri City",
     icon: Gredient_IIITS_logo,
     iconBg: "#E6DEDD",
     date: "Aug 2022 - July 2024",
