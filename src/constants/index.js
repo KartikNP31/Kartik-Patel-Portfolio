@@ -44,7 +44,7 @@ import {
 
 
 
-export const resumeURL = "https://drive.google.com/file/d/1Kb-7bq7g_kA-3_72g5fZp1yQx4KwdHMg/view?usp=sharing";
+export const resumeURL = "https://drive.google.com/file/d/1n3lYfdmxVb54wlKFbA0KlgvKvPrOHz30/view?usp=sharing";
 export const navLinks = [
   {
     id: "about",
