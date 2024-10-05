@@ -27,7 +27,9 @@ const Hero = () => {
         </div>
       </div>
 
-      <ComputersCanvas />
+      <div class="sketchfab-embed-wrapper"> <iframe title="Programmer desktop 3d PC" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/b22983c256174878973cf59b11e90aad/embed?camera=0"> </iframe> </div>
+
+{/*       <ComputersCanvas />
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
@@ -45,7 +47,7 @@ const Hero = () => {
             />
           </div>
         </a>
-      </div>
+      </div> */}
     </section>
   );
 };
