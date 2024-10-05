@@ -49,25 +49,18 @@ export const navLinks = [
   {
     id: "about",
     title: "About",
-    link: "#about",
-    target: "_self"
   },
   {
     id: "work",
     title: "Work",
-    link: "#work",
-    target: "_self"
   },
   {
     id: "contact",
     title: "Contact",
-    link: "#contact",
-    target: "_self"
   }, {
     id: "resume",
     title: "Resume",
     link: resumeURL,
-    target: "_blank"
   }
 ];
 
@@ -97,7 +90,7 @@ const services = [
 const technologies = [
 
   {
-    name: "CPP",
+    name: "C++",
     icon: cpplogo,
   },
   {
