@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import ComputerSetup from "../assets/ComputerSetup.png"
 
 const Hero = () => {
   return (
@@ -9,7 +10,7 @@ const Hero = () => {
      className={`relative w-full h-screen mx-auto`}
      >
       <div
-        className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+        className={`absolute inset-0 top-[120px] z-10  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div className='flex flex-col justify-center items-center mt-5'>
           <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
@@ -27,7 +28,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div class="sketchfab-embed-wrapper"> <iframe title="Programmer desktop 3d PC" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/b22983c256174878973cf59b11e90aad/embed?camera=0"> </iframe> </div>
+      <img src={ComputerSetup} className="absolute h-[50vh] top-[50vh] left-[20vw]"/>
 
 {/*       <ComputersCanvas />
 
